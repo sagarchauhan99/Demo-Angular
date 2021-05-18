@@ -1,0 +1,13 @@
+.container {
+  border-width: medium;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 50px;
+}
+
+.searchbox {
+  position: absolute;
+  left: 400px;
+  width: 500px;
+}
+/*# sourceMappingURL=user-dash.component.css.map */

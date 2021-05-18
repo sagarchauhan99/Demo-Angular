@@ -1,0 +1,96 @@
+{
+  "userDeatils": [
+    {
+      "id": 1,
+      "name": "sagar chauhan",
+      "phoneNumber": 9899999999,
+      "email": "sagar@gmail.com",
+      "password": "sagar123",
+      "address": "sector-52",
+      "state": "Up",
+      "city": "noida",
+      "zip": "201301",
+      "flag": "true",
+      "imgPath": "",
+      "block": false,
+      "friends": [
+        "shubham",
+        "prachi"
+      ],
+      "requests": []
+    },
+    {
+      "id": 2,
+      "name": "shubham sharma",
+      "phoneNumber": 98999999111,
+      "email": "shubham@gmail.com",
+      "password": "shubham123",
+      "address": "gaz",
+      "state": "UP",
+      "city": "Gaziabad",
+      "zip": "",
+      "flag": "true",
+      "imgPath": "",
+      "block": false,
+      "friends": [
+        "sagar",
+        "prachi"
+      ],
+      "requests": []
+    },
+    {
+      "id": 7,
+      "name": "prachi chauhan",
+      "phoneNumber": 98978797,
+      "email": "prachi@gmail.com",
+      "password": "prachi",
+      "address": "sector-52",
+      "city": "noida",
+      "state": "UP",
+      "zip": "201301",
+      "imgPath": "/src/assets/pictures/2.jpg",
+      "block": false,
+      "friends": [
+        "shubham",
+        "prachi"
+      ],
+      "requests": []
+    },
+    {
+      "id": 3,
+      "name": "shivani suri",
+      "phoneNumber": 9879878786,
+      "email": "shivani@gmail.com",
+      "password": "shivani123",
+      "address": "moti nagar",
+      "city": "new delhi",
+      "state": "Choose...",
+      "zip": "100021",
+      "imgPath": "C:\\fakepath\\1145.jpg"
+    },
+    {
+      "id": 4,
+      "name": "vineet arora",
+      "phoneNumber": 989787787,
+      "email": "vineet@gmail.com",
+      "password": "vineet123",
+      "address": "sector-16",
+      "city": "noida",
+      "state": "UP",
+      "zip": "201301",
+      "imgPath": "/src/assets/pictures/2.jpg",
+      "block": false,
+      "friends": [
+        "shubham",
+        "prachi"
+      ],
+      "requests": []
+    }
+  ],
+  "adminDetails": [
+    {
+      "username": "vikas",
+      "password": "vikas123"
+    }
+  ]
+}

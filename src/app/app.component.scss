@@ -1,0 +1,19 @@
+.top{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(41, 7, 190);
+    color: black;
+    nav{
+        display: flex;
+        justify-content: space-around;
+    p{
+        color: bisque;
+        font-size: larger;
+        user-select: none;
+    }
+    a{
+        color: rgb(250, 250, 250);  
+    }
+    
+    }
+}

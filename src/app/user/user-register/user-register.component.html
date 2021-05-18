@@ -1,0 +1,73 @@
+<div class="heading">
+<p>Welcome</p>
+</div>
+<br>
+<br>
+<div class="details">
+    <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <div class="col">
+            <input type="number" class="form-control" placeholder="ID" formControlName="id">
+          </div>
+          <br>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Full Name" formControlName="name">
+            </div>
+            <br>
+            <div class="col">
+              <input type="number" class="form-control" placeholder="Phone Number" formControlName="phoneNumber">
+            </div>
+            <br>
+          <div class="col-md-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="sagaxxx@xxx.com"  formControlName="email">
+          </div>
+          <br>
+          <div class="col-md-12">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="M2y1sghha%" formControlName="password">
+          </div>
+          <br>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" formControlName="address">
+          </div>
+          <br> 
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" formControlName="city">
+          </div>
+          <br>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select" formControlName="state">
+              <option selected>Choose...</option>
+              <option>NCR</option>
+            </select>
+          </div>
+          <br>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" formControlName="zip">
+          </div>
+          <br>
+          <div class="input-group mb-3">
+            <input type="file" class="form-control" id="image" accept="image/*"  [src]="imgPath" formControlName="imgPath" >
+            <label class="input-group-text" for="inputGroupFile02" (click)="upload()">Upload</label>
+          </div>
+          <div><img class="image-holder" src="url" /></div>
+          <div [ngStyle]="{'background-image':'url('+imgPath+')'}"></div>
+          <br>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Accecpt terms and conditions.
+              </label>
+            </div>
+          </div>
+          <br>
+         <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+         </div>
+    </form>
+</div>

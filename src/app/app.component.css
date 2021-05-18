@@ -1,0 +1,28 @@
+.top {
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #2907be;
+  color: black;
+}
+
+.top nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.top nav p {
+  color: bisque;
+  font-size: larger;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.top nav a {
+  color: #fafafa;
+}
+/*# sourceMappingURL=app.component.css.map */

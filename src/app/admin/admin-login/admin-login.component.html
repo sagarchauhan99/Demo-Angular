@@ -1,0 +1,15 @@
+
+<div class="container">
+    <div id="adminlogin">
+        <div class="form-floating mb-3">
+            <input type="email" [(ngModel)]="username" class="form-control"  placeholder="name@example.com" >
+            <label for="floatingInput1">Username </label>
+        </div>
+        <div class="form-floating">
+            <input type="password" [(ngModel)]="password" class="form-control"  placeholder="Password" >
+            <label for="floatingPassword">Password</label>
+        </div>
+          <br>
+          <button type="submit" class="btn btn-primary" (click)="Login()">Sign-in</button>
+        </div>
+</div>

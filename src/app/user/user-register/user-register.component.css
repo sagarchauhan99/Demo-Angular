@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap");
+.details {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Newsreader', serif;
+  font-weight: 700;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.heading p {
+  font-size: 60px;
+  font-family: 'Pattaya', sans-serif;
+}
+/*# sourceMappingURL=user-register.component.css.map */

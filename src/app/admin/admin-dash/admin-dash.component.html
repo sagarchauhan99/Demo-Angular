@@ -1,0 +1,19 @@
+<div style="text-align: end;">
+  <a><button (click)="signOut()"  type="button"  class="btn btn-danger">Sign-Out</button></a>
+</div>
+<div class="container">
+  <div *ngFor="let detail of userlist,let i=index">
+    <br> 
+    <div class="card" style="width: 18rem;">
+        <img src="{{detail.imgPath}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{ detail.name }}</h5>
+          <p class="card-text">{{ detail.email }}</p>
+        <button (click)="block(i)" class="btn btn-danger">block</button>&nbsp;
+        <button (click)="Unblock(i)" class="btn btn-success">Unblock</button>
+        <br>
+        </div>
+      </div>
+  </div>
+ <br>
+</div>
